@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: careerai-mvp
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
